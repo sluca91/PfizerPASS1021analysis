@@ -1,0 +1,17 @@
+In the matching algorithm the main thing is making a database with 1 table with a start and end date and a 
+column for every matching criteria. If you have 5 matching criteria you would have 5 columns. This 5 columns
+can be reduced to 1 column by giving and id to every combination that is in the table.
+
+So if you have the columns pid, date_exposed,ST_date,EN_date, m1, m2, m3, m4, m5
+
+Then take "SELECT DISTINCT m1, m2, m3, m4, m5 FROM ABOVE" and add an id, such as the row id and apply this to the table of above.
+
+Then in the matching you have a table  pid, date_exposed,ST_date,EN_date, status_id
+
+This will make that the matcing query is faster because lees expression need to be evaluated and because the table is leander.
+
+Moreover, when you aim on match for several cohorts this table can also more easaly appended to another long table with multiple T0 per subject
+
+You may then end up with pid, date_exposed,ST_date,EN_date, status_id, cohort
+
+Then when picking 1 match of all the possible matches you need to order by pid_exposed and cohort

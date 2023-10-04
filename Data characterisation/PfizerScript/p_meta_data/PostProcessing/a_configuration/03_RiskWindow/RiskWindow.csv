@@ -1,0 +1,56 @@
+AESI;RiskWindow
+Guillain-Barre syndrome;1-42 days
+Acute disseminated encephalomyelitis;1-42 days
+Narcolepsy;1-42 days
+Acute aseptic arthritis;1-42 days
+Diabetes mellitus type I;1-365 days
+(Idiopathic) thrombocytopenia;1-42 days
+Thrombotic thrombocytopenia syndrome;1-15 days
+Acute cardiovascular injury including microangiopathy;1-365 days
+Arrhythmia;1-365 days
+Heart failure;1-365 days
+Stress cardiomyopathy;1-365 days
+Coronary artery disease;1-365 days
+Myocarditis (7 days);after each dose
+Myocarditis (14 days);after each dose
+Myocarditis (21 days);after each dose
+Pericarditis (7 days);after each dose
+Pericarditis (14 days);after each dose
+Pericarditis (21 days);after each dose
+Myocarditis and pericarditis (7 days);after each dose
+Myocarditis and pericarditis (14 days);after each dose
+Myocarditis and pericarditis (21 days);after each dose
+Coagulation disorders thromboembolism;1-28 days
+Coagulation disorders haemorrhage;1-28 days
+Single organ cutaneous vasculitis;1-28 days
+Thrombocytopenia with venous thromboembolism;1-15 days
+Acute liver injury;1-365 days
+Acute kidney injury ;1-365 days
+Acute pancreatitis;1-365 days
+Rhabdomyolysis;1-365 days
+Generalised convulsion;1-42 days
+Meningoencephalitis;1-42 days
+Transverse myelitis;1-42 days
+Bell’s palsy;1-42 days
+Acute respiratory distress syndrome;1-365 days
+Erythema multiforme;1-42 days
+Chilblain-like lesions;1-42 days
+Secondary amenorrhea;1-183 days
+Anosmia, ageusia;1-42 days
+Anaphylaxis;1 day
+Multisystem inflammatory syndrome;1-42 days
+Death (any causes);1-365 days
+Subacute thyroiditis;1-365 days
+Sudden death;1-365 days
+Gestational diabetes;Any time pregnancy
+Preeclampsia;After 20 weeks gestation
+Maternal death;Any time pregnancy
+Foetal growth restriction;Any time pregnancy
+Spontaneous abortions;At termination
+Stillbirth;At birth
+Preterm birth;At preterm birth 
+Major congenital anomalies;1 year after birth
+Microcephaly;At birth
+Neonatal death;At birth
+Termination of pregnancy for foetal anomaly;At termination
+Vaccine-associated enhanced disease (VAED);Any

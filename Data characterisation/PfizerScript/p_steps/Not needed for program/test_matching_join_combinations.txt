@@ -1,0 +1,30 @@
+
+
+
+
+Voor 0.3 milioen op 1 milioen met 10000 per keer 
+
+
+Dummy		Time(s)			matched(/10000)		(NB possible matches)
+
+1;400		16			9591			21
+1:200  		19			9829			56
+1:100		27			9921			72
+1:50		46			9972			153						
+A tm Z:		83			9990			320
+A only:		1780			9997			8000	
+
+
+
+
+Voor 3 milioen op 10 milioen met 6 cores * 1000 per keer 
+Dummy		Time(s)			matched(/6000)		(NB possible matches)
+1:4000		333			5927			13
+
+Voor 3 milioen op 10 milioen met 6 cores * 10000 per keer 
+Dummy		Time(s)			matched(/60000)		(NB possible matches)
+1:4000		332			55589			13
+
+Voor 3 milioen op 10 milioen met 6 cores * 100000 per keer 
+Dummy		Time(s)			matched(/600000)	(NB possible matches)
+1:4000		430			588943			13

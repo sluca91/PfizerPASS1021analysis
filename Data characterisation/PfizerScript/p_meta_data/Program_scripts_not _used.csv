@@ -1,0 +1,26 @@
+PROGRAM;FOLDER_VAR;FILE;TYPE;FORMAT;OBJECT;KEY;PROCESSES;FUNCTIONS
+Step_12_AddCoVariates;populations_dir;M_Studycohor3;INPUT;rds;temp;;Extract dates covariates from sqlite database;
+Step_12_AddCoVariates;meta_dir;Pfizer_full_codelist;INPUT;csv;FILE;;;
+Step_12_AddCoVariates;tmp;Concept name;INPUT;db;temp;;;
+Step_12_AddCoVariates;populations_dir;M_Studycohort4;OUTPUT;rds;M_Studycohort;person_id,id;;
+Step_06_CreateVariableCovidInfection;tmp;PERSONS2;INPUT;rds;PERSONS;;Select first covid infection;
+Step_06_CreateVariableCovidInfection;concepts_dir;I_COVID_COV;INPUT;rds;COVID;;;
+Step_06_CreateVariableCovidInfection;tmp;PERSONS3;OUTPUT;rds;PERSONS;person_id;;
+Step_07_CreateMonthlyStatus;vaccins_dir;INF;INPUT;rds;INF;;Procuce a table by month used with loopwise matching;CountHistorical
+Step_07_CreateMonthlyStatus;concepts_dir;REGION;INPUT;rds;REGION;;;
+Step_07_CreateMonthlyStatus;concepts_dir;CDC;INPUT;rds;CDC;;;
+Step_07_CreateMonthlyStatus;concepts_dir;IMC;INPUT;rds;IMC;;;
+Step_07_CreateMonthlyStatus;concepts_dir;PREG;INPUT;rds;PREG;;;
+Step_07_CreateMonthlyStatus;populations_dir;MATCHING;OUTPUT;FOLDER;TEMP4;person_id;;
+Step_08_PrepareExposedControls;tmp;PERSONS3;INPUT;rds;PERSONS;;;
+Step_08_PrepareExposedControls;tmp;OBS_SPELLS1;INPUT;rds;SPELLS;;;
+Step_08_PrepareExposedControls;populations_dir;MATCHING;INPUT;FOLDER;HIST;;;
+Step_08_PrepareExposedControls;tmp;EXPOSED;OUTPUT;rds;FILE_EXPOSED;person_id;;
+Step_08_PrepareExposedControls;tmp;CONTROL;OUTPUT;rds;FILE_CONTROL;person_id;;
+Step_09_MatchingProcedure;tmp;EXPOSED;INPUT;rds;FILE_EXPOSED;;Matching;
+Step_09_MatchingProcedure;tmp;CONTROL;INPUT;rds;FILE_CONTROL;;;
+Step_09_MatchingProcedure;tmp;OBS_SPELLS1;INPUT;rds;SPELLS;;;
+Step_09_MatchingProcedure;populations_dir;MATCHING;INPUT;FOLDER;;;;
+Step_09_MatchingProcedure;populations_dir;MATCH_PAIRS;OUTPUT;rds;MATCHED;person_id,id;;
+Step_11d_ApplyDictionaryIntegers;tmp;Dictionary;INPUT;rds;;;;
+Step_11d_ApplyDictionaryIntegers;tmp;Dictionary_result;OUTPUT;rds;;;;

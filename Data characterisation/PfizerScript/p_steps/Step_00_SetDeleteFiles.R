@@ -1,0 +1,17 @@
+
+
+remove_files(dir = concepts_dir, file.type = ".rds")
+remove_files(dir = populations_dir, names = c("REGION.rds","M_Studycohort.rds","M_Studycohort2.rds","log.txt","log2.txt","log3.txt"))
+remove_files(dir = paste0(populations_dir,"Matching/"), file.type = ".rds" )
+remove_files(dir = tmp, file.type = ".rds" )
+remove_files(dir = tmp, names = "database.db" )
+remove_files(dir = vaccins_dir, file.type = ".rds" )
+remove_files(dir = paste0(meta_dir,"Codebook/"), names = "Codebook.xlsx" )
+remove_files(dir = output_dir, file.type = ".csv" )
+remove_files(dir = output_dir, file.type = ".pdf" )
+remove_files(dir = output_dir, file.type = ".log" )
+remove_files(dir = matching_dir, file.type = ".rds" )
+remove_files(dir = aesi_dir, file.type = ".rds" )
+remove_files(dir = populations_dir, file.type = ".rds" )
+remove_files(dir = matching_dir, names = "matching.db" )
+remove_files(dir = concepts_dir, names = "concepts.db" )

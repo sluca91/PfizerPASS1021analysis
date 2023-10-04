@@ -1,0 +1,5 @@
+person_id;start_date_record;end_date_record;event_code;event_record_vocabulary;text_linked_to_event_code;event_free_text;present_on_admission;laterality_of_event;meaning_of_event;origin_of_event;visit_occurrence_id
+P012a;20200101;;R73.9;ICD10/CM;;;;;;;
+P012b;20200101;;R73.9;ICD10/CM;;;;;;;
+P012c;20200101;;R73.9;ICD10/CM;;;;;;;
+P011;20200101;;R73.9;ICD10/CM;;;;;;;

@@ -1,0 +1,44 @@
+Event_abbreviation;Event_name;System;AESI;Covariate;End_of_risk_window;lookback_period;order_in_table;Table;Fixed in time;Notes;SCRI;CONTROL_window
+N_GBS_AESI;Guillain-Barre syndrome;Autoimmune diseases;yes;;42;365;1;AESI tables;;;1;42
+N_ADEM_AESI;Acute disseminated encephalomyelitis;Autoimmune diseases;yes;;42;365;2;AESI tables;;;1;42
+N_NARCOLEPSY_AESI;Narcolepsy;Autoimmune diseases;yes;;42;365;3;AESI tables;;;1;42
+M_ARTASEPTIC_AESI;Acute aseptic arthritis;Autoimmune diseases;yes;;42;365;4;AESI tables;;;1;42
+E_DM1_AESI;Diabetes mellitus type 1;Autoimmune diseases;yes;;365;Any;5;AESI tables;;;0;NA
+B_TP_AESI;(Idiopathic) thrombocytopenia ;Autoimmune diseases;yes;;42;365;6;AESI tables;;;1;42
+B_TTS_AESI;Thrombotic thrombocytopenia syndrome;Autoimmune diseases;yes;;15;365;7;AESI tables;;;1;15
+C_ACI_AESI;Acute cardiovascular injury including microangiopathy;Cardiovascular system;yes;;365;365;8;AESI tables;;;0;NA
+C_ARRH_AESI;Arrhythmia;Cardiovascular system;yes;;365;365;9;AESI tables;;;0;NA
+C_HF_AESI;Heart failure;Cardiovascular system;yes;;365;365;10;AESI tables;;;0;NA
+C_CMSTRESS_AESI;Stress cardiomyopathy;Cardiovascular system;yes;;365;365;11;AESI tables;;;0;NA
+C_CAD_AESI;Coronary artery disease;Cardiovascular system;yes;;365;365;12;AESI tables;;;0;NA
+C_MYOCARD_AESI_7;Myocarditis;Cardiovascular system;yes;;7;365;13;AESI tables;;;0;NA
+C_MYOCARD_AESI_14;Myocarditis;Cardiovascular system;yes;;14;;;AESI tables;;;1;14
+C_MYOCARD_AESI_21;Myocarditis;Cardiovascular system;yes;;21;;;AESI tables;;;0;NA
+C_PERICARD_AESI_7;Pericarditis;Cardiovascular system;yes;;7;;;AESI tables;;;0;NA
+C_PERICARD_AESI_14;Pericarditis;Cardiovascular system;yes;;14;;;AESI tables;;;1;14
+C_PERICARD_AESI_21;Pericarditis;Cardiovascular system;yes;;21;365;14;AESI tables;;;0;NA
+C_MYOPERICARD_AESI_7;Myocarditis and pericarditis;Cardiovascular system;yes;;7;;;AESI tables;;;0;NA
+C_MYOPERICARD_AESI_14;Myocarditis and pericarditis;Cardiovascular system;yes;;14;;;AESI tables;;;0;NA
+C_MYOPERICARD_AESI_21;Myocarditis and pericarditis;Cardiovascular system;yes;;21;;;AESI tables;;;0;NA
+B_COAGDIS_AESI;Coagulation disorders: thromboembolism;Circulatory system;yes;;28;;;AESI tables;;;1;28
+V_VASCULITISSINGLEORG_AESI;Single organ cutaneous vasculitis;Circulatory system;yes;;28;365;16;AESI tables;;;1;28
+D_LIVERACUTE_AESI;Acute liver injury;Hepato-gastrointestinal and renal system;yes;;365;365;18;AESI tables;;;0;NA
+G_KIACUTE_AESI;Acute kidney injury;Hepato-gastrointestinal and renal system;yes;;365;365;19;AESI tables;;;0;NA
+D_PANCRACUTE_AESI;Acute pancreatitis;Hepato-gastrointestinal and renal system;yes;;365;365;20;AESI tables;;;0;NA
+M_RHABDOMYOLISIS_AESI;Rhabdomyolysis;Hepato-gastrointestinal and renal system;yes;;365;365;21;AESI tables;;;0;NA
+N_CONVULSION_AESI;Generalised convulsion;Nerves and central nervous system;yes;;42;365;22;AESI tables;;;1;42
+N_MENINGOENC_AESI;Meningoencephalitis;Nerves and central nervous system;yes;;42;365;23;AESI tables;;;1;42
+N_MYELITISTRANSV_AESI;Transverse myelitis;Nerves and central nervous system;yes;;42;365;24;AESI tables;;;1;42
+N_BELLP_AESI;Bell's palsy;Nerves and central nervous system;yes;;42;365;25;AESI tables;;;1;42
+R_ARDS_AESI;Acute respiratory distress syndrome;Respiratory system;yes;;365;365;26;AESI tables;;;0;NA
+Sk_ERYTHMULTI_AESI;Erythema multiforme;Skin and musous membrane bone and joints;yes;;42;365;27;AESI tables;;;0;NA
+V_CHILBLAIN_AESI;Chilblain-like lesions;Skin and musous membrane bone and joints;yes;;42;365;28;AESI tables;;;0;NA
+G_SECONDARYAMENORRHEA_AESI;Secondary amenorrhea;Reproductive system;yes;;183;;29;AESI tables;;;0;NA
+SO_ANOSMIAAGEUSIA_AESI;Anosmia, ageusia;;yes;;42;;30;AESI tables;;;0;NA
+Im_ANAPHYLAXIS_AESI;Anaphylaxis;Other;yes;;1;365;31;AESI tables;;Is prevalence;1;1
+O_MIS_AESI;Multisystem inflammatory syndrome;Other;yes;;42;365;32;AESI tables;;;0;NA
+O_DEATHANY_AESI;Death (any causes);Other;yes;;365;365;33;AESI tables;;;0;NA
+E_THYROIDSUBACUTE_AESI;Subacute thyroiditis;Other;yes;;365;365;34;AESI tables;;;0;NA
+O_DEATHSUDDEN_AESI;Sudden death;Other;yes;;365;365;35;AESI tables;;;0;NA
+I_COVID_COV;COVID-19 disease;Any;yes;;Any;365;36;AESI tables;;;0;NA
+I_COVID19VAED_AESI;Vaccine-associated enhanced disease (VAED);Any;yes;;Any;365;37;AESI tables;;;0;NA

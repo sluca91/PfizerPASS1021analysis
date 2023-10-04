@@ -1,0 +1,122 @@
+---
+title: "MergeColumnsFunction"
+author: "Jan Willem Maaskant"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r}
+
+
+test <- readRDS('C:/Temp/test.rds')[,N1PER1:=NULL]
+
+
+amount <- 'N1'
+perc <- 'PER1'
+table <- test
+
+
+summary(test)
+
+
+```
+```{r}
+head(test)
+
+```
+
+```{r}
+MergeColumns <- function(amount,perc,table) {
+ 
+  
+  
+  
+  
+  
+  table <- copy(table)
+  c.name <- paste0(amount,perc)
+  
+  colOrderOriginal <- colnames(table)
+  
+  colPos <- min(which(colOrderOriginal %in% c(amount,perc)))
+  
+  colOrder <- c(colOrderOriginal[1:colPos-1],c.name,colOrderOriginal[colPos:length(colOrderOriginal)])
+  colOrder <- colOrder[!colOrder %in% c(amount,perc)]
+  
+  
+  setnames(table,c(amount,perc),c("amount","perc"))
+  
+  # DAP_tables2 <- table[,':='(N1PER1=paste0(get(amount),"(",get(perc),")"))]
+  DAP_tables2 <- table[amount != '' & perc != '',eval(c.name):=paste0(amount,"(",perc,")")]
+  DAP_tables2 <- DAP_tables2[,amount:=NULL][,perc:=NULL]
+  setcolorder(DAP_tables2,colOrder)
+  
+  return(DAP_tables2)
+}
+```
+
+
+
+```{r}
+amount <- 'N1'
+perc <- 'PER1'
+table <- test
+
+test2 <- MergeColumns(amount,perc,table)
+
+
+```
+
+```{r}
+head(test2)
+```
+
+```{r}
+test2 <- test2[,N3PER3 := NULL]
+```
+
+
+```{r}
+head(test2)
+
+```
+```{r}
+
+
+amount <- 'N3'
+perc <- 'PER3'
+table <- test2
+
+ 
+test3 <- MergeColumns(amount,perc,table)
+```
+
+```{r}
+head(test3)
+```
+

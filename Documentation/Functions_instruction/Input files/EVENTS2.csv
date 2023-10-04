@@ -1,0 +1,2 @@
+event_code,event_record_vocabulary,event_abbreviation,text_linked_to_event_code,event_free_text,laterality_of_event,present_on_admission,meaning_of_event,origin_of_event,visit_occurrence_id,person_id,type,start_date_record,end_date_record
+4770131000006117,MEDCODEID,BELLP,RTI-HS simulated data,,right,yes,hospitalisation_primary,RTI_HS,59694578,#ID-APPEND00000054#,AESI,20120701,20120701

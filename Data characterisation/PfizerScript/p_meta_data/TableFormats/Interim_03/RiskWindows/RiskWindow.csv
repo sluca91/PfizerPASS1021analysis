@@ -1,0 +1,55 @@
+Body system/ classification	AESI	RiskWindow
+Autoimmune diseases	Guillain-Barré syndrome	1–42
+Autoimmune diseases	Acute disseminated encephalomyelitis	1–42
+Autoimmune diseases	Narcolepsy	1–42
+Autoimmune diseases	Acute aseptic arthritis	1–42
+Autoimmune diseases	Diabetes mellitus type I	1–365
+Autoimmune diseases	(Idiopathic) thrombocytopenia	1–42
+Autoimmune diseases	Thrombosis thrombocytopenia syndrome (TTS)	1–15
+Cardiovascular system	Acute cardiovascular injury 	1–365
+Cardiovascular system	Arrhythmia	1–365
+Cardiovascular system	Heart failure	1–365
+Cardiovascular system	Stress cardiomyopathy	1–365
+Cardiovascular system	Coronary artery disease	1–365
+Cardiovascular system	Myocarditis 1-21	after each dose
+Cardiovascular system	Myocarditis 1-14	after each dose
+Cardiovascular system	Myocarditis 1-7	after each dose
+Cardiovascular system	Pericarditis 1-21	after each dose
+Cardiovascular system	Pericarditis 1-14	after each dose
+Cardiovascular system	Pericarditis 1-7	after each dose
+Cardiovascular system	Myocarditis and pericarditis 1-21	after each dose
+Cardiovascular system	Myocarditis and pericarditis 1-14	after each dose
+Cardiovascular system	Myocarditis and pericarditis 1-7	after each dose
+Circulatory system	Coagulation disorders: thromboembolism, haemorrhage	1–28
+Circulatory system	Single organ cutaneous vasculitis	1–28
+Circulatory system	Thrombocytopenia with venous thromboembolism	1–15
+Hepato-gastrointestinal and renal system	Acute liver injury	1–365
+Hepato-gastrointestinal and renal system	Acute kidney injury 	1–365
+Hepato-gastrointestinal and renal system	Acute pancreatitis	1–365
+Hepato-gastrointestinal and renal system	Rhabdomyolysis	1–365
+Nerves and central nervous system	Generalised convulsion	1–42
+Nerves and central nervous system	Meningoencephalitis	1–42
+Nerves and central nervous system	Transverse myelitis	1–42
+Nerves and central nervous system	Bell’s palsy	1–42
+Respiratory system	Acute respiratory distress syndrome	1–365
+Skin and mucous membrane, bone and joints system	Erythema multiforme	1–42
+Skin and mucous membrane, bone and joints system	Chilblain-like lesions	1–42
+Reproductive system	Secondary amenorrhea	1–183
+Other system	Anosmia, ageusia	1–42
+Other system	Anaphylaxis	1
+Other system	Multisystem inflammatory syndrome	1–42
+Other system	Death (any causes)	1–365
+Other system	Subacute thyroiditis	1–365
+Other system	Sudden death	1–365
+Pregnancy outcome, maternal	Gestational diabetes	Any time pregnancy
+Pregnancy outcome, maternal	Preeclampsia	After 20 weeks gestation
+Pregnancy outcome, maternal	Maternal death	Any time pregnancy
+Pregnancy outcome, neonates. Define design taking trimester into account	Foetal growth restriction	Any time pregnancy
+Pregnancy outcome, neonates. Define design taking trimester into account	Spontaneous abortions	At termination
+Pregnancy outcome, neonates. Define design taking trimester into account	Stillbirth	At birth
+Pregnancy outcome, neonates. Define design taking trimester into account	Preterm birth	At preterm birth 
+Pregnancy outcome, neonates. Define design taking trimester into account	Major congenital anomalies	1 year after birth
+Pregnancy outcome, neonates. Define design taking trimester into account	Microcephaly	At birth
+Pregnancy outcome, neonates. Define design taking trimester into account	Neonatal death	At birth
+Pregnancy outcome, neonates. Define design taking trimester into account	Termination of pregnancy for foetal anomaly	At termination
+Any	Vaccine-associated enhanced disease (VAED)	Any

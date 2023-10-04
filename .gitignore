@@ -1,0 +1,65 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+
+
+# My folders
+CDMInstances/BIG/
+CDMInstances/Medium/
+CDMInstances/RTI_simulated/
+CDMInstances/RTI_simulated_10000/
+CDMInstances/10k/
+CDMInstances/new_samp/
+Data characterisation/PfizerScript/g_output/
+Data characterisation/PfizerScript/g_intermediate/
+Data characterisation/PfizerScript/.Rhistory
+Data characterisation/PfizerScript/p_meta_data/TableFormats/g_intermediate/
+Data characterisation/PfizerScript/p_meta_data/TableFormats/Interim_03/g_intermediate/*
+!Data characterisation/PfizerScript/p_meta_data/TableFormats/Interim_03/g_intermediate/.gitkeep
+Data characterisation/PfizerScript/p_meta_data/PostProcessing/d_output/*
+!Data characterisation/PfizerScript/p_meta_data/PostProcessing/d_output/.gitkeep
+Data characterisation/PfizerScript/p_meta_data/PostProcessing/c_inputs/*
+!Data characterisation/PfizerScript/p_meta_data/PostProcessing/c_inputs/.gitkeep
+
+
+
+
+
+

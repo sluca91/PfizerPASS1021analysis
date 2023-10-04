@@ -1,0 +1,151 @@
+---
+title: "BindDoodling Base R"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+```{r}
+m <- cbind(1, 1:7) # the '1' (= shorter vector) is recycled
+m
+
+
+```
+
+```{r}
+n <- cbind(m, 8:14) # insert a column
+n <- n[,c(1,3,2)]
+n
+
+```
+
+```{r}
+m <- cbind(m, 8:14)[, c(1, 3, 2)] # insert a column
+m
+
+```
+
+```{r}
+cbind(1:7, diag(3)) # vector is subset -> warning
+```
+
+
+```{r}
+cbind(1:7, diag(7)) # no warning
+```
+
+
+```{r}
+cbind(1:7) # first part
+```
+
+
+```{r}
+cbind(diag(7)) #second part
+```
+
+
+```{r}
+cbind(0, rbind(1, 1:3))
+```
+
+```{r}
+rbind(1,1:3)
+
+```
+
+```{r}
+cbind(0,1:3)
+```
+
+```{r}
+cbind(I = 0, X = rbind(a = 1, b = 1:3))  # use some names
+```
+
+```{r}
+xx <- data.frame(I = rep(0,2))
+xx
+cbind(xx, X = rbind(a = 1, b = 1:3))   # named differently
+
+```
+
+```{r}
+yy <- data.frame(I = rep(0,5))
+yy
+```
+
+```{r}
+format_strnr <- function(x){
+  
+# This function takes values in string format and evaluate if the value is a real string, an integer or an decimal 
+# The format will be changed according to the value that is decided upon.
+# @@todo  check what happens when the value is not in string format() and adjust function according to that
+  
+  y <-suppressWarnings(as.numeric(x)) 
+
+
+  if (!is.na(y) && is.numeric(y) ){ 
+  
+  
+    if (y %% 1 == 0) {
+    
+      y <- formatC(y, digits = 0, big.mark = ",", format= "f")
+    
+      } else if (y != round(y)){
+    
+       y <- formatC(y, digits = 2, decimal.mark = ".",big.mark = ",", format= "f")
+      }
+      x <- y
+
+  }
+  return(x)
+}
+
+```
+
+```{r}
+x <- "10000000"
+x <-  format_strnr(x)
+x
+```
+
+
+```{r}
+x <- "10.5123"
+x <- format_strnr(x)
+x
+
+
+
+```
+
+
+```{r}
+x <- 10000000
+x <- format_strnr(x)
+x
+```
+```{r}
+x <- 10.5123456
+x <- format_strnr(x)
+x
+```
+```{r}
+x <- "stringtest"
+x <- format_strnr(x)
+x
+```
+

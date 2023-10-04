@@ -1,0 +1,31 @@
+folder_list;variable_name;codesheet_name;drug_proxy;variable_type;type_drug_proxy;atc_codes;included;part_of_algorithm;Pfizer
+;;;DP_ANALGESIC;Covariate;codesheet;N02;sharepoint excel sheet;No;Yes
+;;;DP_ANTIBIO;Covariate;codesheet;J01;sharepoint excel sheet;No;Yes
+;;;DP_ANTIVIR;Covariate;codesheet;J05;sharepoint excel sheet;No;Yes
+;;;DP_CORTICOST;Covariate;codesheet;H02;sharepoint excel sheet;No;Yes
+Im_ALLERGY_COV_Allergy;Im_ALLERGY_COV;Im_ANAPHYLAXIS_AESI;DP_EPINEPHRINE;Covariate;codesheet;C01CA24;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_ANAPHYLAXIS_COV_Anaphylaxis history;Im_ANAPHYLAXIS_COV;Im_ANAPHYLAXIS_AESI;DP_EPINEPHRINE;Covariate;codesheet;C01CA24;algorithm folders/sharepoint excel sheet;Yes;Yes
+;;;DP_NOAC;Covariate;codesheet;B01AC;sharepoint excel sheet;No;Yes
+;;;DP_NSAID;Covariate;codesheet;M01;sharepoint excel sheet;No;Yes
+;;;DP_PSYCH;Covariate;codesheet;N05;sharepoint excel sheet;No;Yes
+;;;DP_STAT;Covariate;codesheet;C10AA;sharepoint excel sheet;No;Yes
+;;;DP_WAR;Covariate;codesheet;B01AA03;sharepoint excel sheet;No;Yes
+Onc_ANYMALIGNANCYALGORITHM_COV_Malignancies;Onc_ANYMALIGNANCYALGORITHM_COV;Onc_ANYMALIGNANCY_COV;DP_COVCANCER;Covariate;codesheet;L01;algorithm folders/sharepoint excel sheet;Yes;yes
+Onc_ANYMALIGNANCYALGORITHM_COV_Malignancies;Onc_ANYMALIGNANCYALGORITHM_COV;Onc_ANYMALIGNANCY_COV;DP_COVCANCER;Covariate;codesheet;L02B;algorithm folders/sharepoint excel sheet;Yes;yes
+E_DM12ALGORITHM_COV_Diabetes 1 and 2;E_DM12ALGORITHM_COV;E_DM12_COV;DP_COVDIAB;Covariate;codesheet;A10A;algorithm folders/sharepoint excel sheet;Yes;yes
+E_DM12ALGORITHM_COV_Diabetes 1 and 2;E_DM12ALGORITHM_COV;E_DM12_COV;DP_COVDIAB;Covariate;codesheet;A10B;algorithm folders/sharepoint excel sheet;Yes;yes
+I_HIV_COV_HIV;I_HIV_COV;I_AIDS_CH;DP_COVHIV;Covariate;codesheet;J05AR;algorithm folders/sharepoint excel sheet;Yes;Yes
+I_HIV_COV_HIV;I_HIV_COV;I_AIDS_CH;DP_COVHIV;Covariate;codesheet;J05AE;algorithm folders/sharepoint excel sheet;Yes;Yes
+I_HIV_COV_HIV;I_HIV_COV;I_AIDS_CH;DP_COVHIV;Covariate;codesheet;J05AF;algorithm folders/sharepoint excel sheet;Yes;Yes
+I_HIV_COV_HIV;I_HIV_COV;I_AIDS_CH;DP_COVHIV;Covariate;codesheet;J05AG;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Onc_HAEMAT_COV;DP_COVHIV;Covariate;codesheet;J05AR;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Onc_HAEMAT_COV;DP_COVHIV;Covariate;codesheet;J05AE;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Onc_HAEMAT_COV;DP_COVHIV;Covariate;codesheet;J05AF;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Onc_HAEMAT_COV;DP_COVHIV;Covariate;codesheet;J05AG;algorithm folders/sharepoint excel sheet;Yes;Yes
+Ment_MENTHEALTHDISEASE_COV_Mental Health Diseases;Ment_MENTHEALTHDISEASE_COV;N_DEMENTIA_COV;DP_COVMENTHEALTH;Covariate;codesheet;N05A;algorithm folders/sharepoint excel sheet;Yes;Yes
+Ment_MENTHEALTHDISEASE_COV_Mental Health Diseases;Ment_MENTHEALTHDISEASE_COV;N_DEMENTIA_COV;DP_COVMENTHEALTH;Covariate;codesheet;N06A;algorithm folders/sharepoint excel sheet;Yes;Yes
+Ment_MENTHEALTHDISEASE_COV_Mental Health Diseases;Ment_MENTHEALTHDISEASE_COV;N_DEMENTIA_COV;DP_COVMENTHEALTH;Covariate;codesheet;N06D;algorithm folders/sharepoint excel sheet;Yes;Yes
+R_RESPCHRONICALGORITHM_COV_Respiratory disease chronic;R_RESPCHRONICALGORITHM_COV;R_RESPCHRONIC_COV;DP_COVRESPCHRONIC;Covariate;codesheet;R03;algorithm folders/sharepoint excel sheet;Yes;yes
+R_RESPCHRONICALGORITHM_COV_Respiratory disease chronic;R_RESPCHRONICALGORITHM_COV;R_RESPCHRONIC_COV;DP_COVRESPCHRONIC;Covariate;codesheet;R07A;algorithm folders/sharepoint excel sheet;Yes;yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Im_IMMUNODEF_COV;DP_IMMUNOSUPPR;Covariate;codesheet;L04;algorithm folders/sharepoint excel sheet;Yes;Yes
+Im_IMMUNODEFIMMUNOSUP_COV_Immunodeficiencies or immunosuppressive diseases congenital or acquired;Im_IMMUNODEFIMMUNOSUP_COV;Im_IMMUNODEF_COV;DP_IMMUNOSUPPR;Covariate;codesheet;H02;algorithm folders/sharepoint excel sheet;Yes;Yes

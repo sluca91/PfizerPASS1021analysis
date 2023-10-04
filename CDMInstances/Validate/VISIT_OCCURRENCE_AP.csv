@@ -1,0 +1,6 @@
+person_id;visit_start_date;visit_occurrence_id;visit_end_date;speciality_of_visit;speciality_of_visit_vocabulary;status_at_discharge;status_at_discharge_vocabulary;meaning_of_visit;origin_of_visit
+P001a;20200811;;;;;;;hospitalization;
+P001a;20210910;;;;;;;hospitalization;
+P001a;20210810;;;;;;;hospitalization;
+P001a;20211010;;;;;;;hospitalization;
+P002a;20210401;;;;;;;hospitalization;

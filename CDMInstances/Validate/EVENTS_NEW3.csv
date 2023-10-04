@@ -1,0 +1,16 @@
+person_id;start_date_record;end_date_record;event_code;event_record_vocabulary;text_linked_to_event_code;event_free_text;present_on_admission;laterality_of_event;meaning_of_event;origin_of_event;visit_occurrence_id
+P001a;20210815;;D69.4;ICD10;TP;;;;;;
+P001a;20210816;;I82.0;ICD10;SPLACHNICVT;;;;;;
+P001a;20210817;;I63.6;ICD10;CVST;;;;;;
+P001a;20210818;;D73.5;ICD10;VTE;;;;;;
+P001a;20210819;;I25;ICD10CM;CAD;;;;;;
+P001a;20210820;;I63.9;ICD10CM;STROKEISCH;;;;;;
+P001a;20210809;;D69.4;ICD10;TP;;;;;;
+P001a;20211015;;D69.4;ICD10;TP;;;;;;
+P001a;20210818;;D69.4;ICD10;TP;;;;;;
+P001b;20210915;;I78.1;ICD10CM;MICROANGIO;;;;;;
+P001b;20210916;;I51.81;ICD10CM;CMSTRESS;;;;;;
+P001b;20210917;;I26.09;ICD10CM;HF;;;;;;
+P001b;20210918;;I24;ICD10CM;CAD;;;;;;
+P001b;20210809;;I26.09;ICD10CM;HF;;;;;;
+P001b;20210808;;I51.81;ICD10CM;CMSTRESS;;;;;;
